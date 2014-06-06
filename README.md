@@ -19,7 +19,7 @@ angular.module('app', ['gs.flash-message']);
 Add the directive to your DOM and give it a name, _e.g._ `gabe`. You can have as many as you want (nesting?).
 
 ```html
-<div data-gs-flash-messages="gabe"></div>
+<div data-gs-flash-message="gabe"></div>
 ```
 
 If you need to set the flash message and do not need to change state, use `$rootScope` to send a message.
